@@ -108,6 +108,9 @@
     "npm": ">=3.7.3"
   },
   "main": "dist/index.js",
+  "files": [
+    "**/*"
+  ],
   "directories": {
     "lib": "./dist"
   },
