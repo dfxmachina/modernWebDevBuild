@@ -123,6 +123,7 @@
     "outdated": "npm outdated",
     "help": "gulp help",
     "setup": "npm install --no-optional",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   }
 }
