@@ -108,17 +108,13 @@
     "npm": ">=3.7.3"
   },
   "main": "dist/index.js",
-  "files": [
-    "dist",
-    "src"
-  ],
   "directories": {
     "lib": "./dist"
   },
   "scripts": {
     "clean": "gulp clean",
-    "compile": "gulp --cwd",
-    "build": "npm run compile && gulp --cwd test-unit",
+    "compile": "gulp",
+    "build": "npm run compile && gulp test-unit",
     "test": "gulp prepare-test-unit && gulp test-unit",
     "update": "npm install --no-optional",
     "outdated": "npm outdated",
