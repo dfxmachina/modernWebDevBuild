@@ -109,7 +109,8 @@
   },
   "main": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "directories": {
     "lib": "./dist"
