@@ -124,6 +124,6 @@
     "help": "gulp help",
     "setup": "npm install --no-optional",
     "prepublish": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "npm run compile"
   }
 }
